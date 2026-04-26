@@ -1,21 +1,29 @@
-# Todo App | Jetpack Compose + Room + Hilt 
+# Weather App | Jetpack Compose + Hilt + Retrofit + WorkManager
 
-This project demonstrates how to integrate Hilt Dependency Injection (DI) with Room database and ViewModel in an Android application. The setup allows automatic injection of the database, DAO, repository, and ViewModel, simplifying the architecture and improving testability.
+A modern Android application that demonstrates Clean Architecture, Dependency Injection with Hilt, and background processing with WorkManager to provide real-time weather updates.
 
-# Features
-- Hilt DI for dependency management.
-- Room for local database storage.
-- ViewModel for UI-related data handling.
-- Compose UI integration with Hilt ViewModel.
+## 🚀 Features
+- **Clean Architecture:** Separated into Data, Domain, and Presentation layers for better maintainability.
+- **Hilt DI:** Robust dependency management for Retrofit, WorkManager, and Repositories.
+- **Reactive UI:** Built entirely with Jetpack Compose and state-aware ViewModels.
+- **Background Updates:** Uses `WorkManager` with `HiltWorker` to fetch weather updates periodically.
+- **Connectivity Aware:** Monitors network status to handle offline states gracefully.
 
-# Setup Instructions
-- Add Hilt dependencies to your build.gradle files.
-- Setup the Application class with @HiltAndroidApp.
-- Provide Room database and DAO using a Hilt module.
-- Inject the repository and ViewModel using Hilt annotations.
-- Use hiltViewModel() in your Compose UI to get the ViewModel instance.
+## 🛠️ Tech Stack
+- **UI:** Jetpack Compose, Material 3
+- **Networking:** Retrofit with Kotlinx Serialization
+- **DI:** Hilt (Dagger)
+- **Background Tasks:** WorkManager
+- **Local Storage:** SharedPreferences (Room integration ready)
 
-# Benefits
-- Eliminates manual dependency passing.
-- Promotes clean architecture.
-- Enhances scalability and maintainability.
+## 🏗️ Architecture Overview
+The project follows a modular structure:
+- `data/`: Contains API services, DTOs, Mappers, and Repository implementations.
+- `domain/`: Contains business logic (Use Cases) and repository interfaces.
+- `presentation/`: Compose screens and ViewModels.
+- `di/`: Hilt modules for Network, Repository, and UseCase injections.
+
+## 🔧 Setup & Implementation Highlights
+
+### Hilt Worker Configuration
+The app uses a custom configuration to enable Hilt injection inside WorkManager:

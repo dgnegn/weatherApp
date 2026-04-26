@@ -1,3 +1,62 @@
 <resources>
-    <string name="app_name">TodoApp</string>
+    <string name="app_name" translatable="false">A+Weather</string>
+    <string name="weather_clear">Clear</string>
+    <string name="weather_cloudy">Cloudy</string>
+    <string name="weather_foggy">Foggy</string>
+    <string name="weather_rainy">Rainy</string>
+    <string name="weather_snowy">Snowy</string>
+    <string name="weather_thunder">Thunderstorm</string>
+    <string name="weather_unknown">Unknown</string>
+    <string name="_7_day_forecast">7-Day Forecast</string>
+    <string name="select_location">Select Location</string>
+    <string name="search_location">Search Location</string>
+    <string name="real_feel">Real Feel: %1$d°</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind">Wind</string>
+    <string name="pressure">Pressure</string>
+    <string name="sun">Sun</string>
+    <string name="hourly_forecast">Hourly Forecast</string>
+    <string name="retry">Retry</string>
+    <string name="menu_privacy">Privacy</string>
+    <string name="menu_exit">Exit</string>
+    <string name="now">Now</string>
+    <string name="unknown">Unknown</string>
+    <string name="content_desc_back">Back</string>
+    <string name="content_desc_location">Location</string>
+    <string name="content_desc_search">Search</string>
+    <string name="content_desc_update">Update</string>
+    <string name="content_desc_more">More</string>
+    <string name="content_desc_toggle">Toggle</string>
+    <string name="content_desc_clear">Clear</string>
+
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="privacy_intro">Welcome to A+ Weather. This Privacy Policy explains how we handle information when you use our mobile application (the \"Application\").\n\nPlease read this policy carefully. By using the Application, you agree to the terms outlined below.</string>
+
+    <string name="privacy_collection_title">Collection of Information</string>
+    <string name="privacy_collection_desc">We do not collect, store, process, or transmit any personal data or device information. Your use of this Application is entirely anonymous.</string>
+
+    <string name="privacy_use_title">Use of Information</string>
+    <string name="privacy_use_desc">Since we do not collect any information about you or your device, no data is used for any purpose.</string>
+
+    <string name="privacy_disclosure_title">Disclosure of Information</string>
+    <string name="privacy_disclosure_desc">We do not share any information with third parties or legal entities because no user data is collected or stored.</string>
+
+    <string name="privacy_tracking_title">Tracking Technologies</string>
+    <string name="privacy_tracking_desc">This Application does not use cookies, pixels, or any other tracking technologies.</string>
+
+    <string name="privacy_security_title">Security</string>
+    <string name="privacy_security_desc">As we do not collect personal or device information, we do not maintain databases or servers that could be vulnerable to data breaches.</string>
+
+    <string name="privacy_children_title"><![CDATA[Children\'s Privacy]]></string>
+    <string name="privacy_children_desc">We do not knowingly solicit information from or market to children under the age of 13. If you believe we have inadvertently received any data, please contact us immediately.</string>
+
+    <string name="privacy_rights_title">Your Privacy Rights</string>
+    <string name="privacy_rights_desc">Because we do not store personal data, we do not maintain accounts or data retrieval processes. For specific concerns, please contact us using the information below.</string>
+
+    <string name="privacy_changes_title">Changes to This Policy</string>
+    <string name="privacy_changes_desc">We may update this Privacy Policy periodically. We will notify you of changes by posting the updated policy here. We encourage you to review this page regularly.</string>
+
+    <string name="privacy_contact_title">Contact Us</string>
+    <string name="privacy_contact_desc">If you have questions or comments about this Privacy Policy, please contact us via email at:\n\naplussoft.info@gmail.com</string>
+    <string name="privacy_last_updated">Last Updated: April 21, 2026</string>
 </resources>
